@@ -4,7 +4,6 @@ import HomePage from './Pages/HomePage';
 import {Switch, Route} from 'react-router-dom';
 import ReactSnippets from './Pages/ReactSnippets';
 import VanillaJavascript from './Pages/VanillaJavascript';
-import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import { useState } from 'react';
 
@@ -36,9 +35,6 @@ function App() {
               </Route>
               <Route path="/vanillajavascript" exact>
                 <VanillaJavascript />
-              </Route>
-              <Route path="/blogs" exact>
-                <BlogsPage />
               </Route>
               <Route path="/contact" exact>
                 <ContactPage />
