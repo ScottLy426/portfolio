@@ -15,6 +15,11 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
+                        <NavLink to="/appclones" exact activeClassName="active">
+                            App Clones
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
                         <NavLink to="/vanillajavascript" exact activeClassName="active">
                             Vanilla Javascript
                         </NavLink>
@@ -22,11 +27,6 @@ function Navbar() {
                     <li className="nav-item">
                         <NavLink to="/reactsnippets" exact activeClassName="active">
                             React Snippets
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink to="/appclones" exact activeClassName="active">
-                            App Clones
                         </NavLink>
                     </li>
                     <li className="nav-item">
