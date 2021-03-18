@@ -5,6 +5,7 @@ import {Switch, Route} from 'react-router-dom';
 import ReactSnippets from './Pages/ReactSnippets';
 import VanillaJavascript from './Pages/VanillaJavascript';
 import ContactPage from './Pages/ContactPage';
+import AppClones from './Pages/AppClones';
 import { useState } from 'react';
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
               </Route>
               <Route path="/vanillajavascript" exact>
                 <VanillaJavascript />
+              </Route>
+              <Route path="/appclones" exact>
+                <AppClones />
               </Route>
               <Route path="/contact" exact>
                 <ContactPage />
