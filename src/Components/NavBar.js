@@ -1,15 +1,13 @@
 import React from 'react'
-import avatar from '../img/avatar.png';
 import {NavLink} from 'react-router-dom';
-
+import logo from '../imgs/logo.png';
 function Navbar() {
     return (
         <div className="NavBar">
             <nav className="nav">
                 <div className="profile">
-                    <img src={avatar} alt=""/>
+                    <img src={logo} alt=""/>
                  </div>
-
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
@@ -17,30 +15,25 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/about" exact activeClassName="active">
-                            About
+                        <NavLink to="/vanillajavascript" exact activeClassName="active">
+                            Vanilla Javascript
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/portfolios" exact activeClassName="active">
-                            Portfolios
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink to="/blogs" exact activeClassName="active">
-                            Blogs
+                        <NavLink to="/reactsnippets" exact activeClassName="active">
+                            React Snippets
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
-                            Contact
+                            Contact Me
                         </NavLink>
                     </li>
                 </ul>
 
                 <footer className="footer">
                     <p>
-                        @2021 Lorem Ipsum
+                        @2021 Scott Ly
                     </p>
             </footer>
             </nav>

@@ -1,11 +1,11 @@
 import React from 'react';
-import about from '../img/about.jpg';
+
 
 function ImageSection() {
     return (
         <div className="ImageSection">
             <div className="img">
-                <img src={about} alt=""/>
+              
             </div>
             <div className="about-info">
                 <h4>I am<span> Lorem Ipsum</span></h4>

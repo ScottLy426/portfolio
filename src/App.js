@@ -2,8 +2,8 @@ import './App.scss';
 import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
 import {Switch, Route} from 'react-router-dom';
-import AboutPage from './Pages/AboutPage';
-import PortfliosPage from './Pages/PortfoliosPage';
+import ReactSnippets from './Pages/ReactSnippets';
+import VanillaJavascript from './Pages/VanillaJavascript';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import { useState } from 'react';
@@ -31,11 +31,11 @@ function App() {
               <Route path="/" exact>
                 <HomePage />
               </Route>
-              <Route path="/about" exact>
-                <AboutPage />
+              <Route path="/reactsnippets" exact>
+                <ReactSnippets />
               </Route>
-              <Route path="/portfolios" exact>
-                <PortfliosPage />
+              <Route path="/vanillajavascript" exact>
+                <VanillaJavascript />
               </Route>
               <Route path="/blogs" exact>
                 <BlogsPage />

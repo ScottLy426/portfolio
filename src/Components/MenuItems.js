@@ -2,7 +2,7 @@ import React from 'react'
 
 function MenuItems({menuItem}) {
     return (
-        <div className="portfolis">
+        <div className="portfolios">
             {
                 menuItem.map((item)=>{
                     return <div className="portfolio" key={item.id}>
@@ -10,15 +10,13 @@ function MenuItems({menuItem}) {
                             <img src={item.image} alt=""/>
                             <ul className="hover-items">
                                 <li>
-                                    <a href={item.link1}>{item.icon1}</a>
-                                    <a href={item.link2}>{item.icon2}</a>
+                                    <a href={item.link1}>LINK</a>
                                 </li>
                             </ul>
                         </div>
                         <h5>
                             {item.title}
                         </h5>
-                        <p>Placeholder paragraph</p>
                     </div>
                 })
             }
